@@ -1,0 +1,180 @@
+body{
+    margin:0;
+	font-family:"PT Sans", sans-serif;
+    font-size:14px;
+    color:#777777;
+    background:
+    url('8.jpg') no-repeat  fixed;  
+    padding-bottom: 200px;
+    padding-top: 50px;
+	
+}
+
+.con{
+   
+/*	
+    perspective: 2px;
+    height: 100vh;
+	 
+    overflow-x: hidden;
+   overflow-y: auto;  		
+ */
+}
+.forma
+{
+background-color: white;
+max-width: 250px;
+color: black;
+padding: 1%;
+opacity: 0.9;
+ border-radius: 25px; 
+           -moz-border-radius: 25px;
+       -webkit-border-radius: 25px;
+}
+
+
+.paralax_back {
+background: url('balloons-icon.png') no-repeat;
+ position: absolute;
+top: -100px;
+right: 0;
+bottom: 0;
+left: 0; 
+transform: translateZ(-4px) scale(2) ;
+margin-left: 45%; 
+
+
+}
+
+.container {
+        margin-top:250px;
+        margin-left: 5px;
+        margin-right: 5px;
+  	background-color: #ffffff;
+	opacity: 0.9;
+	
+	padding-left: 150px;
+	        padding-top: 50px;
+/*	z-index: 2;
+ transform: translateZ(0); 
+*/
+}
+
+.nav  {
+
+    display: block;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.nav ul {
+    
+   list-style: none;
+   text-align: center;
+   position: absolute;
+   position:fixed;
+   left: 85%; 
+   top: 5%; 
+   z-index: 2;
+   
+}
+
+.nav li {
+    
+text-align:center;
+
+
+}
+
+.nav a {
+	float:left;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	background-color: white;
+        width:100px;
+        height:100px;
+        border-radius: 400px; 
+           -moz-border-radius: 400px;
+       -webkit-border-radius: 400px;
+       margin-right:5px;
+       box-shadow: 0 0 5px 3px #a1a1a1;
+         opacity: 0.8;
+      
+ }
+
+.nav a span{
+    position:relative;
+     top:40%;
+ 	}
+ 
+.nav a:hover {
+	color: white;
+	background-color: #006ebd;
+	opacity: 1.0;
+}
+
+.nav a:focus {
+	color: white;
+	background-color: #006ebd;
+	opacity: 1.0;
+}
+.tem{
+    position:relative;
+    margin-left:50px;
+    margin-top:30px;
+    margin-right:20px;
+    width: 600px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.comment{
+    position:relative;
+    margin-left:50px;
+    margin-top:30px;
+    margin-right:20px;
+    max-width: 600px;
+	opacity: 1.0;
+}
+.comment-avatar{
+    position:absolute;
+    margin-left:-40px;
+    padding-top: 0px;
+    width:70px;
+    height:70px;
+    background-color:#b88fff;
+    background:url('balloons-icon.png') no-repeat;
+    background-position: 50% 50%;
+	opacity: 1.0;
+}
+.comment-name{
+    margin-bottom:5px;
+    padding-left:45px;
+    padding-right:20px;
+    font-size:16px;
+    font-weight:bold;  
+    opacity: 1.0;	
+}
+.comment-text{
+    padding:12px;
+    padding-left:45px;
+    background:#f8f8f8;
+    border-bottom:5px solid #e5e6e6;
+	opacity: 1.0;
+}
+.comment-date{
+    margin-top:5px;
+    font-size:12px;
+    color:#bdc3c7;
+	 opacity: 1.0;
+}
+.comment-reply{
+    position:absolute;
+    top:0;
+    right:0;
+    width:15px;
+    height:15px;
+    background:url('/assets/course14/reply.png') no-repeat 0 0;
+}
