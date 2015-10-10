@@ -32,7 +32,7 @@ if (isset($_POST['user_email']) && isset($_POST['password'])) {
        <title>Социальная сеть PartyGames</title>
        <meta charset="utf-8">
       
- <link href="1.css" rel="stylesheet" type="text/css">
+ <link href="style.css" rel="stylesheet" type="text/css">
 
     </head>
 <body>
